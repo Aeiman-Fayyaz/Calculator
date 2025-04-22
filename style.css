@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-image: url(./Images/bg.png);
+    background-repeat: no-repeat; */
+}
+
+.calculator {
+    background-color: #ce4747;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    text-align: right;
+    font-size: 2em;
+    height: 580px;
+    width: 500px;
+    overflow: hidden;
+}
+.screen{
+    background-color: antiquewhite;
+    margin: 30px;
+    border: black solid 2px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #00000081;
+}
+.battery-icon{
+    justify-content: end !important;
+}
