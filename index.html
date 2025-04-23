@@ -20,7 +20,7 @@
     <div class="container pt-5 d-flex justify-content-center align-items-center">
         <div class="calculator">
             <div class="d-flex justify-content-between gap-2">
-                <p class="fw-light text-white">10:45</p>
+                <p class="fw-light text-white" id="time">10:45</p>
                 <div>
                     <i class="fa-solid fa-wifi fa-2xs" style="color: #ffffff;"></i>
                     <i class="fa-solid fa-battery-three-quarters fa-2xs" style="color: #ffffff;"></i>
@@ -33,37 +33,37 @@
             </div>
 
             <!-- calculator buttons -->
-
-            <div class="container d-flex justify-content-center gap-5">
-                <buttons class="btn btn-2 text-light bg-color fw-bold" id = "btn" value = "AC">AC</buttons>
-                <buttons class="btn btn-2 fw-bold operator-bg" id = "btn" value = "()" id = "btn" >()</buttons>
-                <buttons class="btn btn-2 fw-bold operator-bg" id = "btn" value = "%" id = "btn" >%</buttons>
-                <buttons class="btn btn-2 fw-bold operator-bg" id = "btn" value =  "/" id = "btn">/</buttons>
+            <div class="pt-4">
+                <div class="container d-flex justify-content-center gap-5">
+                    <buttons class="btn btn-2 text-light bg-color fw-bold text-center calulation-btn bg-danger" id="btn" value="AC">AC</buttons>
+                    <!-- <buttons class="btn btn-2 fw-bold operator-bg" id="btn" value="()" id="btn">()</buttons> -->
+                    <buttons class="btn btn-2 text-light" id="btn" value="00">00</buttons>
+                    <buttons class="btn btn-2 fw-bold operator-bg" id="btn" value="/" id="btn">/</buttons>
+                </div>
+                <div class="container d-flex justify-content-center mt-4 gap-5">
+                    <buttons class="btn btn-2 text-light" id="btn" value="7">7</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="8">8</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="9">9</buttons>
+                    <buttons class="btn btn-2 fw-bold operator-bg" id="btn" value="*">*</buttons>
+                </div>
+                <div class="container d-flex justify-content-center mt-4 gap-5">
+                    <buttons class="btn btn-2 text-light" id="btn" value="4">4</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="5">5</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="6">6</buttons>
+                    <buttons class="btn btn-2 fw-bold operator-bg" value="-">-</buttons>
+                </div>
+                <div class="container d-flex justify-content-center mt-4 gap-5">
+                    <buttons class="btn btn-2 text-light" id="btn" value="1">1</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="2">2</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="3">3</buttons>
+                    <buttons class="btn btn-2 fw-bold operator-bg" id="btn" value="+">+</buttons>
+                </div>
+                <div class="container d-flex justify-content-center mt-4 gap-5">
+                    <buttons class="btn btn-2 fw-bold display-6" id="btn" value=".">.</buttons>
+                    <buttons class="btn btn-2 text-light" id="btn" value="0">0</buttons>
+                    <buttons class="btn btn-2 text-light fw-bold calulation-btn" id="btn" value="=">=</buttons>
+                </div>
             </div>
-            <div class="container d-flex justify-content-center mt-4 gap-5">
-                <buttons class="btn btn-2 text-light" id = "btn" value = "7">7</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "8">8</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "9">9</buttons>
-                <buttons class="btn btn-2 fw-bold operator-bg" id = "btn" value = "X">X</buttons>
-            </div>
-            <div class="container d-flex justify-content-center mt-4 gap-5">
-                <buttons class="btn btn-2 text-light" id = "btn" value = "4">4</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "5">5</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "6">6</buttons>
-                <buttons class="btn btn-2 fw-bold operator-bg" value = "-">-</buttons>
-            </div>
-            <div class="container d-flex justify-content-center mt-4 gap-5">
-                <buttons class="btn btn-2 text-light" id = "btn" value = "1">1</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "2">2</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "3">3</buttons>
-                <buttons class="btn btn-2 fw-bold operator-bg" id = "btn" value = "+">+</buttons>
-            </div>
-            <div class="container d-flex justify-content-center mt-4 gap-5">
-                <buttons class="btn btn-2 fw-bold display-6" id = "btn" value = ".">.</buttons>
-                <buttons class="btn btn-2 text-light" id = "btn" value = "0">0</buttons>
-                <buttons class="btn btn-2 text-light fw-bold calulation-btn" id = "btn" value = "=">=</buttons>
-            </div>
-
         </div>
     </div>
 

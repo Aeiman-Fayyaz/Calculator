@@ -5,8 +5,9 @@
     background-repeat: no-repeat; */
 }
 body{
-    background-image: url(Images/bg.png);
+    background-image: url(Images/bg2.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .calculator {
     background-color: #000000b3;
@@ -22,7 +23,7 @@ body{
 .screen{
     background-color:whitesmoke;
     margin-bottom: 20px !important;
-    margin: 10px;
+    font-size: 24px;
     margin-right: 30px;
     width: 100%;
     border: rgba(0, 0, 0, 0.636) solid 2px;
