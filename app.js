@@ -9,6 +9,18 @@ function time(params) {
 }
 setInterval(time, 500)
 
+// Button Click Sound
+function buttonClickSound(params) {
+    let clickSound = document.getElementById("clickSound")
+    console.log(clickSound);
+    clickSound.play()
+}
+document.querySelectorAll(" .btn-2").forEach((buttons) => {
+    buttons.addEventListener("click" , function(){
+        buttonClickSound()
+    })
+})
+
 // Calculator 
 
 // Input Blank string

@@ -19,8 +19,11 @@
 <body>
     <div class="container pt-5 d-flex justify-content-center align-items-center">
         <div class="calculator">
+            <div>
+                <audio src="./Audio/buttonSound.mp3" id="clickSound" preload="auto"></audio>
+            </div>
             <div class="d-flex justify-content-between gap-2">
-                <p class="fw-light text-white" id="time">10:45</p>
+                <p class="fw-light text-white" id="time"></p>
                 <div>
                     <i class="fa-solid fa-wifi fa-2xs" style="color: #ffffff;"></i>
                     <i class="fa-solid fa-battery-three-quarters fa-2xs" style="color: #ffffff;"></i>
@@ -36,7 +39,6 @@
             <div class="pt-4">
                 <div class="container d-flex justify-content-center gap-5">
                     <buttons class="btn btn-2 text-light bg-color fw-bold text-center calulation-btn bg-danger" id="btn" value="AC">AC</buttons>
-                    <!-- <buttons class="btn btn-2 fw-bold operator-bg" id="btn" value="()" id="btn">()</buttons> -->
                     <buttons class="btn btn-2 text-light" id="btn" value="00">00</buttons>
                     <buttons class="btn btn-2 fw-bold operator-bg" id="btn" value="/" id="btn">/</buttons>
                 </div>
